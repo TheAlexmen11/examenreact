@@ -16,12 +16,12 @@ function App() {
       <nav className="row bg-primary">
         <MenuNav/>
       </nav>
-      <section className="row bg-primary"> 
-        <article className="col-md-6 bg-warning"> 
+      <section className="row" style={{backgroundColor: "#ccc"}}> 
+        <article className="col-md-6" > 
         <Carrusel/>
         </article>
         
-        <aside className="col-md-3 bg-primary">
+        <aside className="col-md-3" style={{backgroundColor:"rgb(27 127 204"}}>
           <Aside/>
         </aside>
         <article className="col-md-3 bg-secondary p-4">
@@ -29,7 +29,7 @@ function App() {
         </article>
       </section>
       <section className="row bg-dark text-light">
-        <article className="col-md-9 justify-content-center bg-success">
+        <article className="col-md-9 justify-content-center" style={{backgroundColor:"#a78747"}}>
           <MapaUbic/>
         </article>
         <article className="col-md-3 justify-content-center bg-secondary">

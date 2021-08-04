@@ -12,18 +12,18 @@ const MenuNav = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="https://dragon-technology-eirl.netlify.app/">Home</a>
+                  <a className="nav-link active" aria-current="page" target="_blank" href="https://dragon-technology-eirl.netlify.app/">Home</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="http://thealexmen11.epizy.com/">Pagina 01</a>
+                  <a className="nav-link"  target="_blank" href="http://thealexmen11.epizy.com/">Pagina 01</a>
                 </li>
                 <li className="nav-item dropdown">
                   <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     SubMenu
                   </a>
                   <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a className="dropdown-item" href="http://thealexmen11.epizy.com/informacion/">Informacion</a></li>
-                    <li><a className="dropdown-item" href="http://thealexmen11.epizy.com/ubicacion/">Galeria Laptops</a></li>
+                    <li><a className="dropdown-item"  target="_blank"  href="http://thealexmen11.epizy.com/informacion/">Informacion</a></li>
+                    <li><a className="dropdown-item"  target="_blank" href="http://thealexmen11.epizy.com/ubicacion/">Galeria Laptops</a></li>
                     <li><hr className="dropdown-divider"/></li>
                     <li><a className="dropdown-item" href="#">stock(proximamente)</a></li>
                   </ul>
